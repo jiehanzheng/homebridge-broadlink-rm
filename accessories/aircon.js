@@ -861,7 +861,7 @@ class AirConAccessory extends BroadlinkRMAccessory {
       bind: this
     })
 
-    const dataHasGranularTemperatures = hasGranularTemperatures(data, ['temperature', 'cool', 'heat']);
+    const dataHasGranularTemperatures = hasGranularTemperatures(data, ['temperature', 'cool', 'heat', 'auto']);
     if (dataHasGranularTemperatures && logLevel <= 2) {
       log(`${name}: Decimal temperature values were detected in some data keys. Setting a lower minStep.`);
     }
