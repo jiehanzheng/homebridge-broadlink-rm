@@ -1,5 +1,13 @@
 # Homebridge Broadlink RM Pro
 
+## Jiehan's fork
+Installation:
+```
+npm install git+https://github.com/jiehanzheng/homebridge-broadlink-rm.git
+```
+
+Will make PR after testing at my house.
+
 ## Introduction
 Welcome to the Broadlink RM Mini and Broadlink RM Pro plugin for [Homebridge](https://github.com/nfarina/homebridge).
 
