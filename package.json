@@ -26,7 +26,7 @@
   "funding": "https://paypal.me/kiwicamRM",
   "repository": {
     "type": "git",
-    "url": "git@github.com:kiwi-cam/homebridge-broadlink-rm.git"
+    "url": "git@github.com:jiehanzheng/homebridge-broadlink-rm.git"
   },
   "dependencies": {
     "kiwicam-broadlinkjs-rm": "^0.9.17",

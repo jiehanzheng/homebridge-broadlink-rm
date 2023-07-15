@@ -1,0 +1,248 @@
+{
+  "heat10": {
+    "data": "TEMPERATURE_50F"
+  },
+  "heat10.6": {
+    "data": "TEMPERATURE_51F"
+  },
+  "heat11.1": {
+    "data": "TEMPERATURE_52F"
+  },
+  "heat11.7": {
+    "data": "TEMPERATURE_53F"
+  },
+  "heat12.2": {
+    "data": "TEMPERATURE_54F"
+  },
+  "heat12.8": {
+    "data": "TEMPERATURE_55F"
+  },
+  "heat13.3": {
+    "data": "TEMPERATURE_56F"
+  },
+  "heat13.9": {
+    "data": "TEMPERATURE_57F"
+  },
+  "heat14.4": {
+    "data": "TEMPERATURE_58F"
+  },
+  "heat15": {
+    "data": "TEMPERATURE_59F"
+  },
+  "heat15.6": {
+    "data": "TEMPERATURE_60F"
+  },
+  "heat16.1": {
+    "data": "TEMPERATURE_61F"
+  },
+  "heat16.7": {
+    "data": "TEMPERATURE_62F"
+  },
+  "heat17.2": {
+    "data": "TEMPERATURE_63F"
+  },
+  "heat17.8": {
+    "data": "TEMPERATURE_64F"
+  },
+  "heat18.3": {
+    "data": "TEMPERATURE_65F"
+  },
+  "heat18.9": {
+    "data": "TEMPERATURE_66F"
+  },
+  "heat19.4": {
+    "data": "TEMPERATURE_67F"
+  },
+  "heat20": {
+    "data": "TEMPERATURE_68F"
+  },
+  "heat20.6": {
+    "data": "TEMPERATURE_69F"
+  },
+  "heat21.1": {
+    "data": "TEMPERATURE_70F"
+  },
+  "heat21.7": {
+    "data": "TEMPERATURE_71F"
+  },
+  "heat22.2": {
+    "data": "TEMPERATURE_72F"
+  },
+  "heat22.8": {
+    "data": "TEMPERATURE_73F"
+  },
+  "heat23.3": {
+    "data": "TEMPERATURE_74F"
+  },
+  "heat23.9": {
+    "data": "TEMPERATURE_75F"
+  },
+  "heat24.4": {
+    "data": "TEMPERATURE_76F"
+  },
+  "heat25": {
+    "data": "TEMPERATURE_77F"
+  },
+  "heat25.6": {
+    "data": "TEMPERATURE_78F"
+  },
+  "heat26.1": {
+    "data": "TEMPERATURE_79F"
+  },
+  "heat26.7": {
+    "data": "TEMPERATURE_80F"
+  },
+  "heat27.2": {
+    "data": "TEMPERATURE_81F"
+  },
+  "heat27.8": {
+    "data": "TEMPERATURE_82F"
+  },
+  "heat28.3": {
+    "data": "TEMPERATURE_83F"
+  },
+  "heat28.9": {
+    "data": "TEMPERATURE_84F"
+  },
+  "heat29.4": {
+    "data": "TEMPERATURE_85F"
+  },
+  "heat30": {
+    "data": "TEMPERATURE_86F"
+  },
+  "heat30.6": {
+    "data": "TEMPERATURE_87F"
+  },
+  "heat31.1": {
+    "data": "TEMPERATURE_88F"
+  },
+  "heat31.7": {
+    "data": "TEMPERATURE_89F"
+  },
+  "heat32.2": {
+    "data": "TEMPERATURE_90F"
+  },
+  "cool10": {
+    "data": "TEMPERATURE_50F"
+  },
+  "cool10.6": {
+    "data": "TEMPERATURE_51F"
+  },
+  "cool11.1": {
+    "data": "TEMPERATURE_52F"
+  },
+  "cool11.7": {
+    "data": "TEMPERATURE_53F"
+  },
+  "cool12.2": {
+    "data": "TEMPERATURE_54F"
+  },
+  "cool12.8": {
+    "data": "TEMPERATURE_55F"
+  },
+  "cool13.3": {
+    "data": "TEMPERATURE_56F"
+  },
+  "cool13.9": {
+    "data": "TEMPERATURE_57F"
+  },
+  "cool14.4": {
+    "data": "TEMPERATURE_58F"
+  },
+  "cool15": {
+    "data": "TEMPERATURE_59F"
+  },
+  "cool15.6": {
+    "data": "TEMPERATURE_60F"
+  },
+  "cool16.1": {
+    "data": "TEMPERATURE_61F"
+  },
+  "cool16.7": {
+    "data": "TEMPERATURE_62F"
+  },
+  "cool17.2": {
+    "data": "TEMPERATURE_63F"
+  },
+  "cool17.8": {
+    "data": "TEMPERATURE_64F"
+  },
+  "cool18.3": {
+    "data": "TEMPERATURE_65F"
+  },
+  "cool18.9": {
+    "data": "TEMPERATURE_66F"
+  },
+  "cool19.4": {
+    "data": "TEMPERATURE_67F"
+  },
+  "cool20": {
+    "data": "TEMPERATURE_68F"
+  },
+  "cool20.6": {
+    "data": "TEMPERATURE_69F"
+  },
+  "cool21.1": {
+    "data": "TEMPERATURE_70F"
+  },
+  "cool21.7": {
+    "data": "TEMPERATURE_71F"
+  },
+  "cool22.2": {
+    "data": "TEMPERATURE_72F"
+  },
+  "cool22.8": {
+    "data": "TEMPERATURE_73F"
+  },
+  "cool23.3": {
+    "data": "TEMPERATURE_74F"
+  },
+  "cool23.9": {
+    "data": "TEMPERATURE_75F"
+  },
+  "cool24.4": {
+    "data": "TEMPERATURE_76F"
+  },
+  "cool25": {
+    "data": "TEMPERATURE_77F"
+  },
+  "cool25.6": {
+    "data": "TEMPERATURE_78F"
+  },
+  "cool26.1": {
+    "data": "TEMPERATURE_79F"
+  },
+  "cool26.7": {
+    "data": "TEMPERATURE_80F"
+  },
+  "cool27.2": {
+    "data": "TEMPERATURE_81F"
+  },
+  "cool27.8": {
+    "data": "TEMPERATURE_82F"
+  },
+  "cool28.3": {
+    "data": "TEMPERATURE_83F"
+  },
+  "cool28.9": {
+    "data": "TEMPERATURE_84F"
+  },
+  "cool29.4": {
+    "data": "TEMPERATURE_85F"
+  },
+  "cool30": {
+    "data": "TEMPERATURE_86F"
+  },
+  "cool30.6": {
+    "data": "TEMPERATURE_87F"
+  },
+  "cool31.1": {
+    "data": "TEMPERATURE_88F"
+  },
+  "cool31.7": {
+    "data": "TEMPERATURE_89F"
+  },
+  "cool32.2": {
+    "data": "TEMPERATURE_90F"
+  }
+}

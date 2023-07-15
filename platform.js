@@ -3,7 +3,6 @@ const { assert } = require('chai');
 
 const npmPackage = require('./package.json');
 const Accessory = require('./accessories');
-const checkForUpdates = require('./helpers/checkForUpdates');
 const broadlink = require('./helpers/broadlink');
 const { discoverDevices } = require('./helpers/getDevice');
 const { createAccessory } = require('./helpers/accessoryCreator');
@@ -45,7 +44,6 @@ const BroadlinkRMPlatform = class extends HomebridgePlatform {
 
     this.discoverBroadlinkDevices();
     this.showMessage();
-    setTimeout(checkForUpdates, 1800);
 
     if (!config.accessories) {config.accessories = []}
 
@@ -132,7 +130,7 @@ const BroadlinkRMPlatform = class extends HomebridgePlatform {
       let deviceType = 0x2221;
       deviceType = isRFSupported ? (deviceType | 0x2) : deviceType;
       deviceType = isRM4 ? (deviceType | 0x4) : deviceType;
-      
+
       broadlink.addDevice({ address, port: 80 }, mac.toLowerCase(), deviceType);
     })
   }
