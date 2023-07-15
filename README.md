@@ -1,4 +1,4 @@
-# Homebridge Broadlink RM Pro
+# Homebridge Broadlink RM Pro w/ Fahrenheit temperatures for air conditioners
 
 ## Jiehan's fork
 Installation:
@@ -6,7 +6,40 @@ Installation:
 npm install git+https://github.com/jiehanzheng/homebridge-broadlink-rm.git
 ```
 
-Will make PR after testing at my house.
+I tried to submit a [pull request](https://github.com/kiwi-cam/homebridge-broadlink-rm/pull/498) which was was ignored.  So unfortunately I will be using this fork moving forward.  Here is what this fork does:
+
+### Context
+My IR remote control PAR-SL100A-E controls the AC in 1 degree Fahrenheit increments (approximately 0.5 degrees Celsius).
+
+This plugin currently sets a `minStep` of 1, so Home app will only send integer target temperatures in Celsius.  This conversion causes the Home app to "skip" many Fahrenheit set points.
+
+I want to make available to HomeKit every Fahrenheit set point that my IR remote control supports.
+
+### Proposed approach
+* Allow temperature with decimal points in the `data` JSON map
+* If decimal points are detected in the config, set `minStep` to 0.1 to allow HomeKit to send more accurate target temperatures
+* Add fuzzy matching logic inside `getTemperatureHexData` when it is doing the lookup:
+  * Find the closest match temperature with the correct prefix in the `data` JSON
+  * If the temperature difference is less than 1 degree Celsius, return hex code for the closest defined temperature
+  * Otherwise return null (have `getTemperatureHexData` handle this as usual)
+
+### Sample config
+```
+                    "data": {
+                        "off": "26006c...",
+                        "temperature24.4": {
+                            "data": "26006c...",
+                            "pseudo-mode": "cool"
+                        },
+                        "temperature20.6": {
+                            "data": "26006c...",
+                            "pseudo-mode": "heat"
+                        },
+                        "heat17.2": {
+                          // ...
+```
+Template JSON with F -> C mapping for 50F to 90F:
+https://github.com/jiehanzheng/homebridge-broadlink-rm/blob/master/jz-codes.json
 
 ## Introduction
 Welcome to the Broadlink RM Mini and Broadlink RM Pro plugin for [Homebridge](https://github.com/nfarina/homebridge).
